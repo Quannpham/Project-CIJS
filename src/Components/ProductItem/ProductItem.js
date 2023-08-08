@@ -1,22 +1,24 @@
-import React, { useEffect, useState } from "react";
-import { Masonry } from "masonic";
-import ProductList from "../ProductList/ProductList";
+import React from 'react'
+import ProductRender from './ProductRender'
+import Data from "../../Data/MockData";
+import "./ProductItem.css"
 
-const ProductItem = (props) => {
-  console.log("props.items: ", props.items)
-
+const ProductItem = () => {
   return (
-    <div className="container-ProductItem">
-      <Masonry
-        items={props.items}
-        columnGutter={30}
-        columnWidth={200}
-        columnHeight={300}
-        overscanBy={10}
-        render={ProductList} 
-      />
+    <div>
+      <div className="mainContainer">
+          {Data &&
+            Data.map((data) => (
+              <ProductRender 
+              key={data.id} 
+              pinSize={data.size} 
+              imgSrc={data.imgSrc} 
+              name={data.name}
+              />
+            ))}
+        </div>
     </div>
-  );
-};
+  )
+}
 
-export default ProductItem;
+export default ProductItem

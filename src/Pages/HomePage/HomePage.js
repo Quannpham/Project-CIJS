@@ -2,11 +2,6 @@ import React, { Fragment, useEffect, useState } from "react";
 import Filter from "../../Components/Header/Filter/Filter";
 import Navigation from "../../Components/Header/Nav/Nav";
 import ProductItem from "../../Components/ProductItem/ProductItem";
-import Data from "../../Data/MockData";
-import ProductList from "../../Components/ProductList/ProductList";
-import "./HomePage.css";
-import Pin from "../../Pages/HomePage/Pin";
-import NewData from "./NewData";
 
 const HomePage = () => {
   const [items, setItems] = useState([]);
@@ -47,20 +42,9 @@ const HomePage = () => {
   return (
     <Fragment>
       <div>
-        {/* <Navigation setSearch={setSearch}/>
+        <Navigation setSearch={setSearch}/>
         <Filter />
-        <ProductItem items={items}/> */}
-        <div className="mainContainer">
-          {NewData &&
-            NewData.map((data) => (
-              <Pin 
-              key={data.id} 
-              pinSize={data.size} 
-              imgSrc={data.imgSrc} 
-              name={data.name}
-              />
-            ))}
-        </div>
+        <ProductItem />
       </div>
     </Fragment>
   );
