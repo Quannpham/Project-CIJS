@@ -5,16 +5,16 @@ const Filter = () => {
   return (
     <Fragment>
         <div className="container-filter">
-            <button className="btn-filter b-h-6">Big Heroes 6</button>
-            <button className="btn-filter t-s">Toy stories</button>
-            <button className="btn-filter f-z">Frozen</button>
-            <button className="btn-filter m-i">Monster inc</button>
-            <button className="btn-filter z-t-a">Zootopia</button>
-            <button className="btn-filter p-c">Pirates of the Caribes</button>
-            <button className="btn-filter i-c-b">Incredibles</button>
-            <button className="btn-filter up">Up</button>
-            <button className="btn-filter i-o">Inside Out</button>
-            <button className="btn-filter e-m-t">Elemental</button>
+            <button className="btn-filter lam">Lamborghini</button>
+            <button className="btn-filter fer">Ferrari</button>
+            <button className="btn-filter mcr">Mclaren</button>
+            <button className="btn-filter bug">Bugatti</button>
+            <button className="btn-filter asm">Aston Martin</button>
+            <button className="btn-filter por">Porsche</button>
+            <button className="btn-filter rol">Rolls-royce</button>
+            <button className="btn-filter pag">Pagani</button>
+            <button className="btn-filter mer">Mercedes benz</button>
+            <button className="btn-filter zen">Zenvo</button>
         </div>
     </Fragment>
   )

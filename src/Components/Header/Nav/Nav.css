@@ -72,14 +72,14 @@
     padding: 6px 20px;
     margin-top: 10px;
     border-radius: 60px;
-    background-color: lightgrey;
+    background-color: rgb(224, 224, 224);
   }
   .input-nav {
     width: 900px;
     padding: 12px 10px;
     border-style: none;
     line-height: 25px;
-    background-color: lightgrey;
+    background-color: rgb(224, 224, 224);
     outline:none;
     font-size: 15px;
     font-weight: bold;

@@ -13,7 +13,7 @@ const ProductItem = (props) => {
         columnWidth={200}
         columnHeight={300}
         overscanBy={10}
-        render={ProductList}
+        render={ProductList} 
       />
     </div>
   );

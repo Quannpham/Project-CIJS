@@ -8,73 +8,73 @@
     border-radius:20px;
     border-style:none;
   }
-  .b-h-6{
+  .lam{
     color:red;
     background-color:rgb(253, 203, 203);
   }
-  .b-h-6:hover{
+  .lam:hover{
     border:1px solid red
   }
-  .t-s{
+  .fer{
     color:rgb(128, 128, 9);
     background-color:rgb(254, 254, 174);
   }
-  .t-s:hover{
+  .fer:hover{
     border:1px solid rgb(128, 128, 9);
   }
-  .f-z{
+  .mcr{
     color:rgb(31, 31, 250);
     background-color:rgb(195, 231, 243);
   }
-  .f-z:hover{
+  .mcr:hover{
     border:1px solid rgb(31, 31, 250);
   }
-  .m-i{
+  .bug{
     color:rgb(2, 132, 2);
     background-color:rgb(178, 240, 178);
   }
-  .m-i:hover{
+  .bug:hover{
     border:1px solid rgb(2, 132, 2);
   }
-  .z-t-a{
+  .asm{
     color:purple;
     background-color:rgb(218, 193, 241);
   }
-  .z-t-a:hover{
+  .asm:hover{
     border:1px solid purple;
   }
-  .p-c{
+  .por{
     color:red;
     background-color:rgb(253, 203, 203);
   }
-  .p-c:hover{
+  .por:hover{
     border:1px solid red;
   }
-  .i-c-b{
+  .rol{
     color:rgb(128, 128, 9);
     background-color:rgb(254, 254, 174);
   }
-  .i-c-b:hover{
+  .rol:hover{
     border:1px solid rgb(128, 128, 9);
   }
-  .up{
+  .pag{
     color:rgb(31, 31, 250);
     background-color:rgb(195, 231, 243);
   }
-  .up:hover{
+  .pag:hover{
     border:1px solid rgb(31, 31, 250);
   }
-  .i-o{
+  .mer{
     color:rgb(2, 132, 2);
     background-color:rgb(178, 240, 178);
   }
-  .i-o:hover{
+  .mer:hover{
     border:1px solid rgb(2, 132, 2);
   }
-  .e-m-t{
+  .zen{
     color:purple;
     background-color:rgb(218, 193, 241);
   }
-  .e-m-t:hover{
+  .zen:hover{
     border:1px solid purple;
   }

@@ -8,6 +8,7 @@ import ProfilePage from "./Pages/ProfilePage/ProfilePage";
 import SignInPage from "./Pages/SignInPage/SignInPage";
 import SignUpPage from "./Pages/SignUpPage/SignUpPage";
 
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
+      
     </div>
   );
 }
