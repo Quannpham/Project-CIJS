@@ -1,0 +1,98 @@
+.HomePageSearch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(247, 247, 166);
+    width: 100%;
+    height: 1000px;
+    margin-top: 20px;
+    z-index: -2;
+  }
+  .SearchRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+img.images1Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+img.images2images1Search {
+  display: flex;
+  position: absolute;
+  width: 200px;
+  margin-left: 200px;
+  margin-top: -150px;
+
+}
+img.images3images1Search {
+  display: flex;
+  width: 200px;
+  margin-top: -640px;
+  margin-left: 200px;
+  position: absolute;
+}
+img.images4images1Search {
+  display: flex;
+  width: 200px;
+  position: absolute;
+  margin-top: -400px;
+  margin-left: -140px;
+}
+
+.content-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .search {
+    width: 400px;
+    height: 83px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -222px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  h1.content1 {
+    font-size: 66px;
+    color: crimson;
+  }
+  
+  .content2{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+    color: crimson;
+    font-weight: 500;
+  }
+  
+  h4.exploreSearch {
+    width: 107px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    background: brown;
+    cursor: pointer;
+  }

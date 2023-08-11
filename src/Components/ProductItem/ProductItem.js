@@ -1,24 +1,30 @@
-import React from 'react'
-import ProductRender from './ProductRender'
+import React, { useState } from "react";
+import ProductRender from "./ProductRender";
 import Data from "../../Data/MockData";
-import "./ProductItem.css"
+import "./ProductItem.css";
 
 const ProductItem = () => {
+  const [search, setSearch] = useState("");
   return (
     <div>
       <div className="mainContainer">
-          {Data &&
-            Data.map((data) => (
-              <ProductRender 
-              key={data.id} 
-              pinSize={data.size} 
-              imgSrc={data.imgSrc} 
+        {Data &&
+          Data.map((data) => (
+            <ProductRender
+              key={data.id}
+              pinSize={data.size}
+              imgSrc={data.imgSrc}
               name={data.name}
-              />
-            ))}
-        </div>
+              brand={data.brand}
+              color={data.color}
+              price={data.price}
+              speed={data.speed}
+            />
+          ))}
+      </div>
+      
     </div>
-  )
-}
+  );
+};
 
-export default ProductItem
+export default ProductItem;

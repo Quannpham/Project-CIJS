@@ -1,0 +1,12 @@
+.btnLogin{
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+    margin-left: 1350px;
+    margin-top: -200px;
+}
+
+

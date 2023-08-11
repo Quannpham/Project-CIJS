@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Left_data{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logoRegister{
+    width: 100px;
+}
+.title-SignUp{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.FomrName {
+    display: flex;
+    font-size: 16px;
+    font-weight: 200;
+}
+.FromInput{
+    width: 400px;
+}
+
+button.btnDangky.btn.btn-primary {
+    margin-left: -122px;
+    background-color: red;
+    border: 1px solid white;
+    width: 100px;
+    height: 39px;
+}
+.Login{
+    display: block;
+    width: 95px;
+    height: 39px;
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+    margin-left: 220px;
+    margin-top: -39px;
+    border-radius: 6px;
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+}

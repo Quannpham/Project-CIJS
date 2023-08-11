@@ -1,13 +1,19 @@
 import React, { Fragment, useEffect, useState } from "react";
 import Filter from "../../Components/Header/Filter/Filter";
-import Navigation from "../../Components/Header/Nav/Nav";
+import Navigation from "../../Components/Header/Nav/NavHome";
 import ProductItem from "../../Components/ProductItem/ProductItem";
+import MockData from "../../Data/MockData";
+
 
 const HomePage = () => {
   const [items, setItems] = useState([]);
   const [search, setSearch] = useState("");
+  const [imageUpload, setImageUpload] = useState(null);
+  const uploadImage = () => {
+    
+  };
 
-  // console.log("search: ", search)
+  console.log("search: ", search);
 
   // useEffect(()=>{
   //   let i = 0;
@@ -30,19 +36,19 @@ const HomePage = () => {
   //   setItems(images);
   // }, [])
 
-  useEffect(() => {
-    if (search.length != 0) {
-      const result = items.filter((item) => item.name.includes(search));
+  // useEffect(() => {
+  //   if (search.length != 0) {
+  //     const result = items.map((item) => item.name.includes(search));
 
-      console.log(result);
-      // setItems(result)
-    }
-  }, [search]);
+  //     console.log(result);
+  //     setSearch(result);
+  //   }
+  // }, [search]);
 
   return (
     <Fragment>
       <div>
-        <Navigation setSearch={setSearch}/>
+        <Navigation/>
         <Filter />
         <ProductItem />
       </div>

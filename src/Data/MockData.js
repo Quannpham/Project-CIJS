@@ -7,6 +7,8 @@ const MockData = [
     size: "small",
     color: "black",
     brand: "Vanquish",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 2,
@@ -16,6 +18,8 @@ const MockData = [
     size: "medium",
     color: "grey",
     brand: "Vanquish",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 3,
@@ -25,6 +29,8 @@ const MockData = [
     size: "large",
     color: "light green",
     brand: "Valkyrie",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 4,
@@ -34,6 +40,8 @@ const MockData = [
     size: "small",
     color: "dark grey",
     brand: "Valkyrie",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 5,
@@ -43,6 +51,8 @@ const MockData = [
     size: "medium",
     color: "orange",
     brand: "Valkyrie",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 6,
@@ -52,6 +62,8 @@ const MockData = [
     size: "large",
     color: "dark black",
     brand: "Vantage",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 7,
@@ -61,6 +73,8 @@ const MockData = [
     size: "small",
     color: "dark grey lb",
     brand: "Vantage",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 8,
@@ -70,6 +84,8 @@ const MockData = [
     size: "medium",
     color: "dark grey bb",
     brand: "Vantage",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 9,
@@ -79,6 +95,8 @@ const MockData = [
     size: "large",
     color: "dark black lc",
     brand: "Vulcan",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 10,
@@ -88,6 +106,8 @@ const MockData = [
     size: "small",
     color: "dark light grey",
     brand: "Vulcan",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 11,
@@ -97,6 +117,8 @@ const MockData = [
     size: "medium",
     color: "super red",
     brand: "Vulcan",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 12,
@@ -106,6 +128,8 @@ const MockData = [
     size: "large",
     color: "black cat",
     brand: "Centodieci",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 13,
@@ -115,6 +139,8 @@ const MockData = [
     size: "small",
     color: "pink sky",
     brand: "Centodieci",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 14,
@@ -124,6 +150,8 @@ const MockData = [
     size: "medium",
     color: "white",
     brand: "Centodieci",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 15,
@@ -133,6 +161,8 @@ const MockData = [
     size: "large",
     color: "black bat",
     brand: "Divo",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 16,
@@ -142,6 +172,8 @@ const MockData = [
     size: "small",
     color: "black cat",
     brand: "Divo",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 17,
@@ -151,6 +183,8 @@ const MockData = [
     size: "medium",
     color: "hyper white",
     brand: "Divo",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 18,
@@ -160,6 +194,8 @@ const MockData = [
     size: "large",
     color: "Red lipstick",
     brand: "Divo",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 19,
@@ -169,6 +205,8 @@ const MockData = [
     size: "small",
     color: "black",
     brand: "Veyron",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 20,
@@ -178,6 +216,8 @@ const MockData = [
     size: "medium",
     color: "dark green golden ",
     brand: "Veyron",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 21,
@@ -187,6 +227,8 @@ const MockData = [
     size: "large",
     color: "lightning cycle",
     brand: "Veyron",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 22,
@@ -196,6 +238,8 @@ const MockData = [
     size: "small",
     color: "white lady",
     brand: "Veyron",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 23,
@@ -205,6 +249,8 @@ const MockData = [
     size: "medium",
     color: "black cat",
     brand: "Laferrari",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 24,
@@ -214,6 +260,8 @@ const MockData = [
     size: "large",
     color: "military green",
     brand: "Laferrari",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 25,
@@ -223,6 +271,8 @@ const MockData = [
     size: "small",
     color: "purple",
     brand: "Laferrari",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 26,
@@ -232,6 +282,8 @@ const MockData = [
     size: "medium",
     color: "red hat",
     brand: "Laferrari",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 27,
@@ -241,6 +293,8 @@ const MockData = [
     size: "large",
     color: "white cat",
     brand: "Laferrari",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 28,
@@ -250,6 +304,8 @@ const MockData = [
     size: "small",
     color: "black cat",
     brand: "Aventador",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 29,
@@ -259,6 +315,8 @@ const MockData = [
     size: "medium",
     color: "golden",
     brand: "Aventador",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 30,
@@ -268,6 +326,8 @@ const MockData = [
     size: "large",
     color: "super red",
     brand: "Aventador",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 31,
@@ -277,6 +337,8 @@ const MockData = [
     size: "small",
     color: "white cat",
     brand: "Aventador",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 32,
@@ -286,6 +348,8 @@ const MockData = [
     size: "medium",
     color: "white",
     brand: "Aventador",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 33,
@@ -295,6 +359,8 @@ const MockData = [
     size: "large",
     color: "black",
     brand: "Huracan",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 34,
@@ -304,6 +370,8 @@ const MockData = [
     size: "small",
     color: "dark black",
     brand: "Huracan",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 35,
@@ -313,6 +381,8 @@ const MockData = [
     size: "medium",
     color: "dark green",
     brand: "Huracan",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 36,
@@ -322,6 +392,8 @@ const MockData = [
     size: "large",
     color: "evospace black",
     brand: "Huracan",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 37,
@@ -331,6 +403,8 @@ const MockData = [
     size: "small",
     color: "white",
     brand: "Huracan",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 38,
@@ -340,6 +414,8 @@ const MockData = [
     size: "medium",
     color: "blue",
     brand: "Sian",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 39,
@@ -349,6 +425,8 @@ const MockData = [
     size: "large",
     color: "dark grey",
     brand: "Sian",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 40,
@@ -358,6 +436,8 @@ const MockData = [
     size: "small",
     color: "grey",
     brand: "Sian",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 41,
@@ -367,6 +447,8 @@ const MockData = [
     size: "medium",
     color: "red",
     brand: "Sian",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 42,
@@ -376,6 +458,8 @@ const MockData = [
     size: "large",
     color: "yellow",
     brand: "Sian",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 43,
@@ -385,15 +469,19 @@ const MockData = [
     size: "small",
     color: "dark knight",
     brand: "Veneno",
+    price: 9999,
+    speed: 900,
   },
   {
-    id: 43,
+    id: 103,
     imgSrc:
       "https://firebasestorage.googleapis.com/v0/b/project-cijs-85.appspot.com/o/lam-veneno-bl.jpg?alt=media&token=fde88aae-1ca5-4c27-90d6-668d51751253",
     name: "Lamborghini",
     size: "medium",
     color: "black",
     brand: "Veneno",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 44,
@@ -403,6 +491,8 @@ const MockData = [
     size: "large",
     color: "black cat",
     brand: "Veneno",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 45,
@@ -412,6 +502,8 @@ const MockData = [
     size: "small",
     color: "grey",
     brand: "Veneno",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 46,
@@ -421,6 +513,8 @@ const MockData = [
     size: "medium",
     color: "lightning cycle",
     brand: "Veneno",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 47,
@@ -430,6 +524,8 @@ const MockData = [
     size: "large",
     color: "dark black",
     brand: "600",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 48,
@@ -439,6 +535,8 @@ const MockData = [
     size: "small",
     color: "blue knight",
     brand: "600",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 49,
@@ -448,6 +546,8 @@ const MockData = [
     size: "medium",
     color: "light green",
     brand: "600",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 50,
@@ -457,6 +557,8 @@ const MockData = [
     size: "large",
     color: "red",
     brand: "600",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 51,
@@ -466,6 +568,8 @@ const MockData = [
     size: "small",
     color: "black",
     brand: "720",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 52,
@@ -475,6 +579,8 @@ const MockData = [
     size: "medium",
     color: "red",
     brand: "720",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 53,
@@ -484,6 +590,8 @@ const MockData = [
     size: "large",
     color: "white",
     brand: "720",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 54,
@@ -493,6 +601,8 @@ const MockData = [
     size: "small",
     color: "yellow",
     brand: "720",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 55,
@@ -502,6 +612,8 @@ const MockData = [
     size: "medium",
     color: "blue",
     brand: "765",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 56,
@@ -511,6 +623,8 @@ const MockData = [
     size: "large",
     color: "light black",
     brand: "765",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 57,
@@ -520,6 +634,8 @@ const MockData = [
     size: "small",
     color: "red",
     brand: "765",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 58,
@@ -529,6 +645,8 @@ const MockData = [
     size: "medium",
     color: "black",
     brand: "Amg",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 59,
@@ -538,6 +656,8 @@ const MockData = [
     size: "large",
     color: "grey",
     brand: "Amg",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 60,
@@ -547,6 +667,8 @@ const MockData = [
     size: "small",
     color: "golden",
     brand: "Amg",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 61,
@@ -556,6 +678,8 @@ const MockData = [
     size: "medium",
     color: "white",
     brand: "Amg",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 62,
@@ -565,6 +689,8 @@ const MockData = [
     size: "large",
     color: "circle light",
     brand: "Benz",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 63,
@@ -574,6 +700,8 @@ const MockData = [
     size: "small",
     color: "lightning cycle",
     brand: "Benz",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 64,
@@ -583,6 +711,8 @@ const MockData = [
     size: "medium",
     color: "super lightning",
     brand: "Benz",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 65,
@@ -592,6 +722,8 @@ const MockData = [
     size: "large",
     color: "black",
     brand: "Huayra",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 66,
@@ -601,6 +733,8 @@ const MockData = [
     size: "small",
     color: "golden king",
     brand: "Huayra",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 67,
@@ -610,6 +744,8 @@ const MockData = [
     size: "medium",
     color: "golden dark",
     brand: "Huayra",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 68,
@@ -619,6 +755,8 @@ const MockData = [
     size: "large",
     color: "light black",
     brand: "Huayra",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 69,
@@ -628,6 +766,8 @@ const MockData = [
     size: "small",
     color: "purple",
     brand: "Huayra",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 70,
@@ -637,6 +777,8 @@ const MockData = [
     size: "medium",
     color: "track",
     brand: "Huayra",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 71,
@@ -646,6 +788,8 @@ const MockData = [
     size: "large",
     color: "white cat",
     brand: "Huayra",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 72,
@@ -655,6 +799,8 @@ const MockData = [
     size: "small",
     color: "middle dental",
     brand: "Gt3",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 73,
@@ -664,6 +810,8 @@ const MockData = [
     size: "medium",
     color: "Golden",
     brand: "Gt3",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 74,
@@ -673,6 +821,8 @@ const MockData = [
     size: "large",
     color: "purple",
     brand: "Gt3",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 75,
@@ -682,6 +832,8 @@ const MockData = [
     size: "small",
     color: "white",
     brand: "Gt3",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 76,
@@ -691,6 +843,8 @@ const MockData = [
     size: "medium",
     color: "light xray",
     brand: "Panamera",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 77,
@@ -700,6 +854,8 @@ const MockData = [
     size: "large",
     color: "mango refa",
     brand: "Panamera",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 78,
@@ -709,6 +865,8 @@ const MockData = [
     size: "small",
     color: "turquoise",
     brand: "Panamera",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 79,
@@ -718,6 +876,8 @@ const MockData = [
     size: "medium",
     color: "white",
     brand: "Panamera",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 80,
@@ -727,6 +887,8 @@ const MockData = [
     size: "large",
     color: "black",
     brand: "Taycan",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 81,
@@ -736,6 +898,8 @@ const MockData = [
     size: "small",
     color: "dark sky",
     brand: "Taycan",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 82,
@@ -745,6 +909,8 @@ const MockData = [
     size: "medium",
     color: "white",
     brand: "Taycan",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 83,
@@ -754,6 +920,8 @@ const MockData = [
     size: "large",
     color: "black",
     brand: "Asetto",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 84,
@@ -763,6 +931,8 @@ const MockData = [
     size: "small",
     color: "light black",
     brand: "Cullinan",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 85,
@@ -772,6 +942,8 @@ const MockData = [
     size: "medium",
     color: "lightning cycle",
     brand: "Cullinan",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 86,
@@ -781,6 +953,8 @@ const MockData = [
     size: "large",
     color: "white",
     brand: "Asetto",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 87,
@@ -790,6 +964,8 @@ const MockData = [
     size: "small",
     color: "black",
     brand: "Ghost",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 88,
@@ -799,6 +975,8 @@ const MockData = [
     size: "medium",
     color: "grey",
     brand: "Ghost",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 89,
@@ -808,6 +986,8 @@ const MockData = [
     size: "large",
     color: "lightning cycle",
     brand: "Ghost",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 90,
@@ -817,6 +997,8 @@ const MockData = [
     size: "small",
     color: "white",
     brand: "Ghost",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 91,
@@ -826,6 +1008,8 @@ const MockData = [
     size: "medium",
     color: "Alice King",
     brand: "Phantom",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 92,
@@ -835,6 +1019,8 @@ const MockData = [
     size: "large",
     color: "black",
     brand: "Phantom",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 93,
@@ -844,6 +1030,8 @@ const MockData = [
     size: "small",
     color: "meg griddy",
     brand: "Phantom",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 94,
@@ -853,6 +1041,8 @@ const MockData = [
     size: "medium",
     color: "black",
     brand: "Wraith",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 95,
@@ -862,6 +1052,8 @@ const MockData = [
     size: "large",
     color: "dark red",
     brand: "Wraith",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 96,
@@ -871,6 +1063,8 @@ const MockData = [
     size: "small",
     color: "knight red",
     brand: "Wraith",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 97,
@@ -880,6 +1074,8 @@ const MockData = [
     size: "medium",
     color: "dark grey",
     brand: "Ts1",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 98,
@@ -889,6 +1085,8 @@ const MockData = [
     size: "large",
     color: "dark red",
     brand: "Ts1",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 99,
@@ -898,6 +1096,8 @@ const MockData = [
     size: "small",
     color: "grey",
     brand: "Ts1",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 100,
@@ -907,6 +1107,8 @@ const MockData = [
     size: "medium",
     color: "light green",
     brand: "Ts1",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 101,
@@ -916,6 +1118,8 @@ const MockData = [
     size: "large",
     color: "orange",
     brand: "Ts1",
+    price: 9999,
+    speed: 900,
   },
   {
     id: 102,
@@ -925,6 +1129,8 @@ const MockData = [
     size: "small",
     color: "white",
     brand: "Ts1",
+    price: 9999,
+    speed: 900,
   },
 ];
 

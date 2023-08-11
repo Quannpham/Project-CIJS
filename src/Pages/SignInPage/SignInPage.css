@@ -1,0 +1,22 @@
+.Left_data1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logoLogin{
+    width: 100px;
+}
+.FromName1{
+    display: flex;
+}
+button.btn.btn-primary {
+    margin-left: -33px;
+    background-color: red;
+    border: 1px solid white;
+    width: 100px;
+    height: 39px;
+    font-size: 15px;
+    margin-top: 10px;
+}

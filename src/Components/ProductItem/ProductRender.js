@@ -1,21 +1,40 @@
-import React from 'react'
+import React from "react";
 import Data from "../../Data/MockData";
-import "./ProductItem.css"
+import "./ProductItem.css";
+import { Link } from "react-router-dom";
 
-const ProductRender = ({ pinSize, imgSrc, name, note }) => {
-    return (
-      <div className={`pin ${pinSize}`}>
-        <img
-          className="mainPic"
-          src={imgSrc}
-          alt={note}
-        />
-        <div className="content">
-          <h4>{name}</h4> 
-          <i class="fa-regular fa-heart"></i>
-        </div>
+const ProductRender = ({
+  pinSize,
+  imgSrc,
+  name,
+  note,
+  brand,
+  id,
+  color,
+  price,
+  speed,
+}) => {
+  // const toProductDetailPage = `/products/${id}`;
+
+  return (
+    <div className={`pin ${pinSize}`}>
+      <Link to={imgSrc}>
+        <img className="mainPic" src={imgSrc} alt={note} />
+      </Link>
+      <div className="content">
+        <h4>
+          {name}
+          <br />
+          {brand}
+          <br />
+          {color}
+          <br />
+          {price}$<br />
+          {speed}: km/h
+        </h4>
       </div>
-    );
-  };
+    </div>
+  );
+};
 
-export default ProductRender
+export default ProductRender;

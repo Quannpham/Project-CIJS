@@ -1,5 +1,5 @@
-import React, { Fragment } from "react"
-import "./Filter.css"
+import React, { Fragment } from "react";
+import "./Filter.css";
 
 const Filter = () => {
   return (
